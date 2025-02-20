@@ -40,7 +40,7 @@ Sau khi chạy lệnh trên, bạn sẽ chỉ lấy file3.txt và file4.py, còn
   + git commit -m "Lấy file chưa có từ nhánh A"
   + git push origin B
 
-- Tạo Pull Request (PR) để merge code vào repository chính
+Tạo Pull Request (PR) để merge code vào repository chính
 - Sau khi đẩy code lên GitHub, bạn cần mở Pull Request để chủ repository xem xét và hợp nhất code của bạn vào nhánh main:
   + Truy cập vào repository trên GitHub.
   + Bạn sẽ thấy thông báo "Compare & pull request", nhấp vào đó.
