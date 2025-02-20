@@ -13,9 +13,9 @@ chuyển sang nhánh cần làm việc: git checkout <tên_nhánh>
 
 Lấy từng file từ nhánh A sang B
 - đảm bảo rằng bạn đang ở nhánh B: git checkout B
-- 
+
 - Xem danh sách file trong nhánh A: git ls-tree -r origin/A --name-only
-- 
+
 - liệt kê các file có trong A nhưng không có trong B: git diff --name-only B origin/A
 
 - lấy tất cả các file mới từ A mà không ảnh hưởng đến file đã có trong B: git checkout origin/A -- $(git diff --name-only B origin/A)
